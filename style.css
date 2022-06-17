@@ -1,0 +1,43 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto
+}
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.travelo{
+    display: flex;
+    align-items: center;
+    
+}
+.travelo p:hover{
+    color:#4468E2 ;
+    
+}
+.Home{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Home li{
+    padding: 30px;
+    color: blue;
+    opacity: 75%;
+}
+.Home li:hover{
+    color: black;
+}
+
+
+.connect{
+    background-color: #4468E2;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid blue ;
+
+}
