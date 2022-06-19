@@ -73,7 +73,7 @@ h1 {
 .sectionFirst p {
     text-align: center;
     padding-top: 20px;
-    
+
 }
 
 .boxFirst {
@@ -92,9 +92,10 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 20% ;
+    width: 20%;
     padding: 20px 0px 20px 0px;
 }
+
 .boxFirst div p {
     opacity: 0.8;
     color: #7E7E7E;
@@ -117,35 +118,83 @@ h1 {
 .boxFirst input {
     border: none;
 }
+
 /* Section Second Styles */
-.sectionSecond{
+.sectionSecond {
     width: 90%;
     height: 250px;
-    
+
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
-.sectionSecond div{
+
+.sectionSecond div {
     width: 22%;
-    height: 250px ;
-   
-    
-}
-.sectionSecond div img{
-    padding-left: 30px;
-    padding-top: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-h3{
-    padding-left: 20px;
-    margin-top: 30px;
-    
+.sectionSecond div img {
+    width: 70px;
 }
+
+.Payment {
+    width: 100px;
+}
+
 .sectionSecond div p {
     font-size: 13px;
-    padding-left: 20px;
-    padding-top: 50px;
-    
+}
+
+/* Section Third Styles */
+.sectionThird {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 1000px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sectionThird ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.sectionThird li:hover {
+    border-bottom: 2px solid;
+    border-image: (45deg, #163235);
+}
+.Picture{
+    width: 350px;
+}
+.cities{
+    margin-top: 60px;
+}
+.citiesFirst{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 20px;
+    height: 500px;
+}
+
+
+.Pragment{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionThird p{
+    font-size: 10px;
+}
+.Pragment img{
+    width: 10px;
 }
